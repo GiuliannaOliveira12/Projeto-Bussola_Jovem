@@ -1,0 +1,136 @@
+/*RESET*/
+*{margin:0;padding:0; font-size:100%; font-family: 'Open Sans', sans-serif; font-weight:normal;
+    box-sizing:border-box;border:none;outline: none; }
+    img{max-width: 100%;}
+    ul{list-style:none;}
+    a{text-decoration:none;}
+    h2{font-size:1.5em;color:#333;}
+    p{font-size:1em;color:#777;}
+    
+    /*CABECALHO*/
+    
+    .cabecalho{width:100%;float:left;padding: 50px 8%; background-color:#4b4949 }
+    .logo a{width: 300px; height:48px;float:left;background: url(../img/bussola.png)no-repeat;font-size:0;}
+    .cabecalho form{width:30%;float:right;}
+    .cabecalho input[type="text"]{ width:85%; float: left; padding: 15px 10px; border-radius:5px 0 0 5px;}
+    .cabecalho button {width: 15% ;float:right;padding: 15px 15px; background-color:#596775; color:#fff; cursor:pointer; border-radius: 0 5px 5px 0;}
+    
+    /*MENU*/
+    .menu {width: 100%; float:left;background-color: #D9D9D9; padding: 18px 8%;}
+    .menu li {float:left;}
+    .menu li a {color:#59676D; margin-right:25px;}
+    .menu li a:hover{color:#F2845C;}
+    
+    /*social icons */
+    
+    .social-icons{float:right;}
+    .social-icons a{color:#F2845C;float:left;margin-left:12px;}
+    .btn-whatsapp:hover{color:#737373;}
+    .btn-facebook:hover{color:#737373;}
+    .btn-google:hover {color:#737373;}
+
+
+
+    
+/*principal*/
+
+.principal{
+    width: 100%;
+     float: left;
+    padding: 20px 8px;
+
+    background-color:rgb(202, 202, 202);
+    
+ 
+   
+   
+}
+.sobre{width: 70%; float: left; padding: 0 20px 20px 0; 
+  
+}
+.sobre h2{margin-bottom :15px;}
+
+.sobre p{ text-align: justify;}
+
+
+#ficha{
+    color:#F2845C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+ 
+}
+/*Formulario */
+.form-contact-input{
+   
+    width:50%;
+    color: #292929;
+    font-size: 18px;
+    background-color: c;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+
+}
+
+.opcoes{
+    width:15%;
+    color:gray;
+    font-size: 18px; ;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height:30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+
+}
+
+.form-contact-button{
+    width:20%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background:rgb(240, 87, 32);
+    display: block;
+    border: none;
+    border-bottom: 1px solid #F2845C;
+    border-right: 1px solid #F2845C;
+
+    transition: 1s;
+
+}
+   
+.formulario{
+    color: #292929;
+    font-size: 18px;
+    border-radius: 4px;
+
+}
+
+
+
+.form-contact-button:hover {
+    opacity: 1;
+  } 
+
+/*rodape*/
+.rodape{width:100%;float:left;background-color:#4b4949; padding: 20px; }
+.rodape p {color:#fff;}
+
+    
